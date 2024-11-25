@@ -1,0 +1,61 @@
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1,
+p {
+    display: inline;
+}
+
+p {
+    margin-left: 90%;
+}
+
+a {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap onto a new row if there's not enough space */
+    gap: 20px;
+    /* Adds space between items */
+    justify-content: center;
+    /* Centers items within the container */
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 220px;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition effect */
+}
+
+.box img {
+    width: 100%;
+    /* Ensures the image takes full width of the box */
+}
+
+.box h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.box:hover {
+    background-color: black;
+    color: white;
+}

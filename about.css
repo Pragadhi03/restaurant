@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+h1,
+p {
+    display: inline;
+}
+
+p {
+    margin-left: 90%;
+
+}
+
+a {
+    color: lightgrey;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+}

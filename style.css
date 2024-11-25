@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+h1,p {
+    display: inline;
+}
+p {
+    margin-left: 70%;
+    
+}
+a{
+    color: lightgrey;
+    cursor: pointer;
+}
+a:hover {
+    color: white;
+}
+.parentContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20%;
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: black;
+    font-size: 40px;
+    font-style: oblique;
+}
